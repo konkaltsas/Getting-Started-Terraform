@@ -3,8 +3,9 @@
 ##################################################################################
 
 provider "aws" {
-  access_key = "ACCESS_KEY"
-  secret_key = "SECRET_KEY"
+  access_key = "access_key"
+  secret_key = "secret_key"
+  token = "token"
   region     = "us-east-1"
 }
 
